@@ -1,6 +1,0 @@
-https://matthias-research.github.io/pages/tenMinutePhysics/09-xpbd.pdf
-https://matthias-research.github.io/pages/publications/PBDBodies.pdf
-https://matthias-research.github.io/pages/tenMinutePhysics/24-morton.pdf
-https://matthias-research.github.io/pages/tenMinutePhysics/11-hashing.pdf
-https://www.medien.ifi.lmu.de/lehre/ss10/ps/Ausarbeitung\_Beispiel.pdf
-https://winter.dev/articles/epa-algorithm/
