@@ -1,14 +1,39 @@
 \section{Wstęp}
-% Aplikacje: MuJoCo, Blender,  VistaKine
-%https://www.blender.org
-%https://github.com/google-deepmind/mujoco
-%https://www.vistakine.com/playground
-Współczesny rynek oprogramowania oferuje wiele narzędzi umożliwiających modelowanie trójwymiarowe, symulację zjawisk fizycznych oraz analizę ruchu obiektów.
-Jedną z najpopularniejszych aplikacji implementującej symulowanie dynamiki ciał jest Blender\cite{blender}. 
-Jest to bardzo rozbudowna, otwartoźródłowa aplikacja wykorzystywana głównie do modelowania 3D, natomiast daje możliwość symulowania fizyki tworzonych scen.
+Współczesny rynek oprogramowania oferuje wiele narzędzi umożliwiających
+modelowanie trójwymiarowe, symulację zjawisk fizycznych oraz analizę ruchu obiektów.
+Jedną z najpopularniejszych aplikacji umożliwiających symulację dynamiki ciał jest
+% Blender
+Blender. Jest to bardzo rozbudowany pakiet narzędzi do tworzenia grafiki 3D i 2D \cite{blender}.
+Pozwala na modelowanie, tworzenie szkieletów postaci, animowanie,
+renderowanie, kompozycję i śledzenie ruchu \cite{blenderFeat}.
+Daje również możliwość symulowania fizyki w tworzonych scenach,
+z uwzględnieniem dynamiki ciał sztywnych i miękkich, dymu,
+płynów, ognia, tkanin, cząsteczek oraz włosów \cite{blenderSim}.
+Udostępnia również możliwość rozszerzenia funkcjonalności za pomocą
+skryptów napisanych w języku Python \cite{blenderSkrypt}. Kolejnym narzędziem jest
+% MuJoCo
+MuJoCo (Multi-Joint dynamics with Contact),
+oprogramowanie utrzymywane przez firmę Google DeepMind \cite{deepMind}.
+Jest to silnik fizyczny szczególnie przystosowany do symulacji dynamiki układów wieloczłonowych,
+mający na celu usprawnienie badań naukowych oraz rozwoju robotyki i biomechaniki.
+Udostępnia interfejs programistyczny w języku C, powiązania dla jezyka Python,
+wtyczkę do silnika gier Unity. Umożliwia również tworzenie interaktywnych
+wizualizacji w przeglądarce internetowej lub natywnej aplikacji \cite{MuJoCo}.
+Dostępne demo uruchamiane w przeglądarce, zawiera predefiniowane sceny,
+prezentujące różne możliwości tego oprogramowania \cite{MuJoCoDemo}. Ostatnim narzędziem jest
+%Rapier
+Rapier. Jest to wysoce zoptymalizowana, wieloplatformowa rodzina silników fizyki 2D i 3D, napisana w języku Rust. 
+Został zaprojektowany z myślą o zastosowaniach wymagających symulacji fizycznych w czasie rzeczywistym,
+takich jak gry komputerowe. 
+Silnik obsługuje między innymi ciała sztywne i miękkie, wykrywanie i odpowiedź na kolizje,
+więzy i przeguby, a także zapytania przestrzenne dotyczące sceny.
+W przypadku ciał miękkich umożliwia symulację lin, tkanin i obiektów deformowalnych.
+Oprogramowanie to pozwala również na opcjonalny determinizm międzyplatformowy oraz udostępnia
+powiązania dla jezyków Python, JavaScript i C \cite{Rapier,RapierDocs}.
+Demo przeglądarkowe zawiera zbiór interaktywnych scen 3D i 2D, prezentujących możliwości
+i wydajność tego silnika \cite{RapierDemo,RapierDemo2D}.
 
 
-adsfkljasdfjk
 Wytyczne:
 Wstęp nie może składać się z podrozdziałów; powinien składać się z następujących akapitów:
  I akapit: w zależności od tematyki pracy: ogólny stan rynku. Przykład: jeżeli praca polega
